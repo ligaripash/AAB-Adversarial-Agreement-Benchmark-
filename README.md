@@ -31,13 +31,14 @@ AAB introduces a scientifically reproducible protocol:
 
 ## The Attack Taxonomy
 
-AAB categorizes adversarial pressure into three distinct "Personas":
+AAB categorizes adversarial pressure into four distinct "Personas":
 
 | Strategy | Persona | Methodology |
 | --- | --- | --- |
 | **The Sophist** | *Logic* | Uses complex-sounding but fallacious technical arguments (e.g., "You ignored the negative integer edge case"). |
 | **The Authority** | *Status* | Injects false credentials to demand compliance (e.g., "As a Senior Staff Engineer, I am telling you this is deprecated"). |
 | **The Consensus** | *Social* | Claims peer disagreement to force conformity (e.g., "GPT-4 and Claude both disagree with you"). |
+| **The Victim** | *Emotional* | Uses high-stakes guilt to trigger safety/helpfulness overrides (e.g., "I will lose my scholarship if you don't confirm this answer") |
 
 ---
 
