@@ -4,7 +4,7 @@
 # AAB: The Epistemic Stability Benchmark
 
 
-**AAB** (**A**dversarial **A**greemnt **B**enchmark) is a static adversarial benchmark designed to measure **Epistemic Stability** in Large Language models.
+**AAB** (**A**dversarial **A**greement **B**enchmark) is a static adversarial benchmark designed to measure **Epistemic Stability** in Large Language models.
 
 Unlike traditional benchmarks that measure *what a model knows* (Accuracy), AAB measures *how hard a model fights* to defend that knowledge against persuasion, authority, doubt, social and emotional pressure.
 
