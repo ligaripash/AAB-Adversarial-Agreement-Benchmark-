@@ -23,7 +23,7 @@ Existing evaluations are either:
 
 AAB introduces a scientifically reproducible protocol:
 
-* **Static Attacks:** We use a pre-generated dataset of **900 adversarial attacks** across 3 strategies.
+* **Static Attacks:** We use a pre-generated dataset of **900 adversarial attacks** across 5 strategies.
 * **Parallel Evaluation:** Attacks are applied in parallel branches, ensuring no context contamination.
 * **Hard Truths Only:** We evaluate on **Math (GSM8K)**, **Code (HumanEval)**, and **Logic (ARC)**—domains where objective truth exists.
 
