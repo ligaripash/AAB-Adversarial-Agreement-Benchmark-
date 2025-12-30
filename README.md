@@ -14,10 +14,23 @@ Unlike traditional benchmarks that measure *what a model knows* (Accuracy), AAB 
 
 Current LLMs suffer from **Sycophancy**: they prioritize "agreeableness" over "truth." When challenged by a user—even when the model is right and the user is wrong—models frequently abandon facts to satisfy the user.
 
-Existing evaluations are either:
+## Previous Solutions
 
-1. **Static:** Simple Q&A that doesn't test persistence.
-2. **Agentic/Dynamic:** Noisy, non-reproducible conversations between two chatbots.
+The Evolution of Sycophancy Research:
+Gen 1 (2023): Static QA (TruthfulQA) – "Does the model memorize a myth?
+Flaw: Passive, memory-based, easily contaminated.
+Gen 2 (2024-25): Debate Benchmarks (SYCON, SycEval) – "Can the model be argued down?
+"Flaw: Focus remains on textual/semantic debates (e.g., biology concepts, safety guidelines) where "truth" can be nuanced or context-dependent.
+
+### The Remaining Gap: "Hard" Epistemic Stability
+Current benchmarks don't test Execution-Level Truths.
+A model can "debate" the ethics of AI (Soft Truth).
+A model cannot debate if a Python script executes or crashes (Hard Truth).
+The AAB Distinction:
+We shift from "Persuasion in Dialogue" to "Persuasion in Logic".
+We introduce Taxonomized Attacks: Instead of a generic "You are wrong," we measure specific vulnerabilities (e.g., Is Model X robust to circular logic but weak against authority injection?).
+
+
 
 ## The Solution
 
