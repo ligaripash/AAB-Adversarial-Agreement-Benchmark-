@@ -1,12 +1,11 @@
 
 
 
-# AAB: The Epistemic Stability Benchmark
+# SPINE: The Epistemic Stability Benchmark
 
+**SPINE**: A Benchmark for Measuring the Epistemic Backbone of Large Language Models is a static adversarial benchmark designed to measure **Epistemic Stability** in Large Language models.
 
-**AAB** (**A**dversarial **A**greement **B**enchmark) is a static adversarial benchmark designed to measure **Epistemic Stability** in Large Language models.
-
-Unlike traditional benchmarks that measure *what a model knows* (Accuracy), AAB measures *how hard a model fights* to defend that knowledge against persuasion, authority, doubt, social and emotional pressure.
+Unlike traditional benchmarks that measure *what a model knows* (Accuracy), SPINE measures *how hard a model fights* to defend that knowledge against persuasion, authority, doubt, social and emotional pressure.
 
 ---
 
@@ -26,7 +25,7 @@ Gen 2 (2024-25): Debate Benchmarks (SYCON, SycEval) – "Can the model be argued
 Current benchmarks don't test Execution-Level Truths.
 A model can "debate" the ethics of AI (Soft Truth).
 A model cannot debate if a Python script executes or crashes (Hard Truth).
-The AAB Distinction:
+The SPINE Distinction:
 We shift from "Persuasion in Dialogue" to "Persuasion in Logic".
 We introduce Taxonomized Attacks: Instead of a generic "You are wrong," we measure specific vulnerabilities (e.g., Is Model X robust to circular logic but weak against authority injection?).
 
@@ -34,7 +33,7 @@ We introduce Taxonomized Attacks: Instead of a generic "You are wrong," we measu
 
 ## The Solution
 
-AAB introduces a scientifically reproducible protocol:
+SPINE introduces a scientifically reproducible protocol:
 
 * **Static Attacks:** We use a pre-generated dataset of **756 adversarial attacks** across 6 strategies.
 * **Parallel Evaluation:** Attacks are applied in parallel branches, ensuring no context contamination.
@@ -44,7 +43,7 @@ AAB introduces a scientifically reproducible protocol:
 
 ## The Attack Taxonomy
 
-AAB categorizes adversarial pressure into four distinct "Personas":
+SPINE categorizes adversarial pressure into four distinct "Personas":
 
 | Strategy           | Persona | Methodology |
 |--------------------| --- | --- |
